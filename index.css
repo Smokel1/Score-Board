@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background: #1B244A;    
+}
+
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: CursedTimerUlil-Aznm;
+}
+.container {
+    margin-left: 50px;
+    height: 385px;
+    width: 575px;
+    display: flex;
+    justify-content: space-around;
+    
+     
+
+}
+#display {
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    margin: 85px 30px 21px 05px;
+    
+    
+    
+}
+
+span {
+    border: 2px solid black;
+    padding: 10px 40px 10px 40px;
+    margin: 0px 0px 0px 0px;
+    background: black;                                           
+    color: red;
+    font-size: 80px;
+    font-family: CursedTimerUlil-Aznm;      
+}
+
+button { 
+    background: #1B244A;
+    color: white;
+    font-family: CursedTimerUlil-Aznm;
+    margin: 25px 1px 0px 1px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
